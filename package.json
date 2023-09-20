@@ -1,0 +1,25 @@
+{
+  "name": "zhihuapi",
+  "version": "1.0.0",
+  "description": "zhihu-API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "nodemon app"
+  },
+  "author": "xiaoxin",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-json-error": "^3.1.2",
+    "koa-parameter": "^3.0.1",
+    "koa-router": "^12.0.0",
+    "mongoose": "^7.4.3",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
