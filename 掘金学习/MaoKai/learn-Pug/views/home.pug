@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  //- 标题
+  h1= title
+  //- 文本
+  p Welcome to #{title}
+  //- 列表
+  ul 
+  //- 遍历
+  each item in word   
+    li=item
+  //- 条件
+  if  age  
+    p age is #{age}
