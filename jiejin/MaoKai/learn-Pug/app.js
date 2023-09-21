@@ -12,9 +12,9 @@ const users = require('./routes/users')
 const home = require("./routes/home")
 
 
-// ……省略
+// 链接数据库
 const sql = require('./routes/sql')
-// ……省略
+
 app.use(sql.routes(), sql.allowedMethods())
 
 
